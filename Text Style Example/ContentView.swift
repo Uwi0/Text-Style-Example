@@ -1,10 +1,3 @@
-//
-//  ContentView.swift
-//  Text Style Example
-//
-//  Created by dwi prasetyo on 19/08/24.
-//
-
 import SwiftUI
 
 struct ContentView: View {
