@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		FBFE35D42C729D7C00154D95 /* Text_Style_ExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBFE35D32C729D7C00154D95 /* Text_Style_ExampleApp.swift */; };
-		FBFE35D62C729D7C00154D95 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBFE35D52C729D7C00154D95 /* ContentView.swift */; };
+		FBFE35D62C729D7C00154D95 /* AccrosticPoemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBFE35D52C729D7C00154D95 /* AccrosticPoemView.swift */; };
 		FBFE35D82C729D7D00154D95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBFE35D72C729D7D00154D95 /* Assets.xcassets */; };
 		FBFE35DB2C729D7D00154D95 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBFE35DA2C729D7D00154D95 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -16,7 +16,7 @@
 /* Begin PBXFileReference section */
 		FBFE35D02C729D7C00154D95 /* Text Style Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Text Style Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBFE35D32C729D7C00154D95 /* Text_Style_ExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Text_Style_ExampleApp.swift; sourceTree = "<group>"; };
-		FBFE35D52C729D7C00154D95 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FBFE35D52C729D7C00154D95 /* AccrosticPoemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccrosticPoemView.swift; sourceTree = "<group>"; };
 		FBFE35D72C729D7D00154D95 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FBFE35DA2C729D7D00154D95 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -52,7 +52,7 @@
 			isa = PBXGroup;
 			children = (
 				FBFE35D32C729D7C00154D95 /* Text_Style_ExampleApp.swift */,
-				FBFE35D52C729D7C00154D95 /* ContentView.swift */,
+				FBFE35D52C729D7C00154D95 /* AccrosticPoemView.swift */,
 				FBFE35D72C729D7D00154D95 /* Assets.xcassets */,
 				FBFE35D92C729D7D00154D95 /* Preview Content */,
 			);
@@ -137,7 +137,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FBFE35D62C729D7C00154D95 /* ContentView.swift in Sources */,
+				FBFE35D62C729D7C00154D95 /* AccrosticPoemView.swift in Sources */,
 				FBFE35D42C729D7C00154D95 /* Text_Style_ExampleApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
