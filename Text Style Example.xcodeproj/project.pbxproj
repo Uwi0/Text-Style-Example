@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FBD49C8C2C75B2300019ABAE /* MarkdownDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD49C8B2C75B2300019ABAE /* MarkdownDemoView.swift */; };
 		FBFE35D42C729D7C00154D95 /* Text_Style_ExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBFE35D32C729D7C00154D95 /* Text_Style_ExampleApp.swift */; };
 		FBFE35D62C729D7C00154D95 /* AccrosticPoemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBFE35D52C729D7C00154D95 /* AccrosticPoemView.swift */; };
 		FBFE35D82C729D7D00154D95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBFE35D72C729D7D00154D95 /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FBD49C8B2C75B2300019ABAE /* MarkdownDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkdownDemoView.swift; sourceTree = "<group>"; };
 		FBFE35D02C729D7C00154D95 /* Text Style Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Text Style Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBFE35D32C729D7C00154D95 /* Text_Style_ExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Text_Style_ExampleApp.swift; sourceTree = "<group>"; };
 		FBFE35D52C729D7C00154D95 /* AccrosticPoemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccrosticPoemView.swift; sourceTree = "<group>"; };
@@ -53,6 +55,7 @@
 			children = (
 				FBFE35D32C729D7C00154D95 /* Text_Style_ExampleApp.swift */,
 				FBFE35D52C729D7C00154D95 /* AccrosticPoemView.swift */,
+				FBD49C8B2C75B2300019ABAE /* MarkdownDemoView.swift */,
 				FBFE35D72C729D7D00154D95 /* Assets.xcassets */,
 				FBFE35D92C729D7D00154D95 /* Preview Content */,
 			);
@@ -139,6 +142,7 @@
 			files = (
 				FBFE35D62C729D7C00154D95 /* AccrosticPoemView.swift in Sources */,
 				FBFE35D42C729D7C00154D95 /* Text_Style_ExampleApp.swift in Sources */,
+				FBD49C8C2C75B2300019ABAE /* MarkdownDemoView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
