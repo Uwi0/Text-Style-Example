@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FB1030A22C783E450049BBF1 /* OpenUrlActionDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1030A12C783E450049BBF1 /* OpenUrlActionDemoView.swift */; };
 		FBD49C8C2C75B2300019ABAE /* MarkdownDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD49C8B2C75B2300019ABAE /* MarkdownDemoView.swift */; };
 		FBD49C8E2C75D5210019ABAE /* MarkdownAndStringInterpolationDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD49C8D2C75D5210019ABAE /* MarkdownAndStringInterpolationDemoView.swift */; };
 		FBD49C902C75E2020019ABAE /* DisplayingCodeWithMarkdown.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD49C8F2C75E2020019ABAE /* DisplayingCodeWithMarkdown.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FB1030A12C783E450049BBF1 /* OpenUrlActionDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenUrlActionDemoView.swift; sourceTree = "<group>"; };
 		FBD49C8B2C75B2300019ABAE /* MarkdownDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkdownDemoView.swift; sourceTree = "<group>"; };
 		FBD49C8D2C75D5210019ABAE /* MarkdownAndStringInterpolationDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkdownAndStringInterpolationDemoView.swift; sourceTree = "<group>"; };
 		FBD49C8F2C75E2020019ABAE /* DisplayingCodeWithMarkdown.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayingCodeWithMarkdown.swift; sourceTree = "<group>"; };
@@ -62,6 +64,7 @@
 				FBD49C8B2C75B2300019ABAE /* MarkdownDemoView.swift */,
 				FBD49C8D2C75D5210019ABAE /* MarkdownAndStringInterpolationDemoView.swift */,
 				FBD49C8F2C75E2020019ABAE /* DisplayingCodeWithMarkdown.swift */,
+				FB1030A12C783E450049BBF1 /* OpenUrlActionDemoView.swift */,
 				FBFE35D72C729D7D00154D95 /* Assets.xcassets */,
 				FBFE35D92C729D7D00154D95 /* Preview Content */,
 			);
@@ -149,6 +152,7 @@
 				FBD49C8E2C75D5210019ABAE /* MarkdownAndStringInterpolationDemoView.swift in Sources */,
 				FBFE35D62C729D7C00154D95 /* AccrosticPoemView.swift in Sources */,
 				FBFE35D42C729D7C00154D95 /* Text_Style_ExampleApp.swift in Sources */,
+				FB1030A22C783E450049BBF1 /* OpenUrlActionDemoView.swift in Sources */,
 				FBD49C8C2C75B2300019ABAE /* MarkdownDemoView.swift in Sources */,
 				FBD49C902C75E2020019ABAE /* DisplayingCodeWithMarkdown.swift in Sources */,
 			);
