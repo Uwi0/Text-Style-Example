@@ -37,13 +37,15 @@ struct AttributedStringDemoView: View {
             let count = CGFloat(codingIsAwesome.count)
             let j = CGFloat(codingIsAwesome.count / 2 - i)
             
-            letterString.baselineOffset = j * j / count
+            letterString.baselineOffset = -5 * j * j / count
             
             myString += letterString
         }
         
         return myString
     }
+    @State private var smileFactor = 5.0
+    @State private var flip = 0.0
     var body: some View {
         ScrollView {
             Text(attr1Demo)
@@ -56,6 +58,22 @@ struct AttributedStringDemoView: View {
                 .frame(maxWidth: .infinity)
                 .foregroundStyle(.red)
                 .background(Color.black.clipShape(.rect(cornerRadius: 16)))
+                .rotation3DEffect(
+                    Angle(degrees: flip * 180),
+                    axis: (x: 0.0, y: 0.0, z: 0.0)
+                )
+            HStack {
+                Button("😄"){
+                    withAnimation {
+                        smileFactor = abs(smileFactor)
+                    }
+                }.frame(maxWidth: .infinity)
+                Button("😐"){
+                    withAnimation {
+                        smileFactor = -abs(smileFactor)
+                    }
+                }.frame(maxWidth: .infinity)
+            }.font(.largeTitle )
         }.padding()
     }
 }
