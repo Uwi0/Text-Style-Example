@@ -8,13 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		FB1030A22C783E450049BBF1 /* OpenUrlActionDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1030A12C783E450049BBF1 /* OpenUrlActionDemoView.swift */; };
-		FB1030A42C7841D30049BBF1 /* PlularizationDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1030A32C7841D30049BBF1 /* PlularizationDemoView.swift */; };
+		FB1030A42C7841D30049BBF1 /* PluralizationDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1030A32C7841D30049BBF1 /* PluralizationDemoView.swift */; };
 		FB80E5B82C787C8400410F0C /* ListMemberStyleMeasurementsDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB80E5B72C787C8400410F0C /* ListMemberStyleMeasurementsDemoView.swift */; };
 		FB80E5BA2C78823800410F0C /* TextDatesDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB80E5B92C78823800410F0C /* TextDatesDemoView.swift */; };
 		FB80E5BC2C78857100410F0C /* AttributedStringDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB80E5BB2C78857100410F0C /* AttributedStringDemoView.swift */; };
 		FBD49C8C2C75B2300019ABAE /* MarkdownDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD49C8B2C75B2300019ABAE /* MarkdownDemoView.swift */; };
 		FBD49C8E2C75D5210019ABAE /* MarkdownAndStringInterpolationDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD49C8D2C75D5210019ABAE /* MarkdownAndStringInterpolationDemoView.swift */; };
 		FBD49C902C75E2020019ABAE /* DisplayingCodeWithMarkdown.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD49C8F2C75E2020019ABAE /* DisplayingCodeWithMarkdown.swift */; };
+		FBE62D832C7DAFDD00AFC04C /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE62D822C7DAFDD00AFC04C /* MainView.swift */; };
 		FBFE35D42C729D7C00154D95 /* Text_Style_ExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBFE35D32C729D7C00154D95 /* Text_Style_ExampleApp.swift */; };
 		FBFE35D62C729D7C00154D95 /* AccrosticPoemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBFE35D52C729D7C00154D95 /* AccrosticPoemView.swift */; };
 		FBFE35D82C729D7D00154D95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBFE35D72C729D7D00154D95 /* Assets.xcassets */; };
@@ -23,13 +24,14 @@
 
 /* Begin PBXFileReference section */
 		FB1030A12C783E450049BBF1 /* OpenUrlActionDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenUrlActionDemoView.swift; sourceTree = "<group>"; };
-		FB1030A32C7841D30049BBF1 /* PlularizationDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlularizationDemoView.swift; sourceTree = "<group>"; };
+		FB1030A32C7841D30049BBF1 /* PluralizationDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PluralizationDemoView.swift; sourceTree = "<group>"; };
 		FB80E5B72C787C8400410F0C /* ListMemberStyleMeasurementsDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListMemberStyleMeasurementsDemoView.swift; sourceTree = "<group>"; };
 		FB80E5B92C78823800410F0C /* TextDatesDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextDatesDemoView.swift; sourceTree = "<group>"; };
 		FB80E5BB2C78857100410F0C /* AttributedStringDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttributedStringDemoView.swift; sourceTree = "<group>"; };
 		FBD49C8B2C75B2300019ABAE /* MarkdownDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkdownDemoView.swift; sourceTree = "<group>"; };
 		FBD49C8D2C75D5210019ABAE /* MarkdownAndStringInterpolationDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkdownAndStringInterpolationDemoView.swift; sourceTree = "<group>"; };
 		FBD49C8F2C75E2020019ABAE /* DisplayingCodeWithMarkdown.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayingCodeWithMarkdown.swift; sourceTree = "<group>"; };
+		FBE62D822C7DAFDD00AFC04C /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		FBFE35D02C729D7C00154D95 /* Text Style Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Text Style Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBFE35D32C729D7C00154D95 /* Text_Style_ExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Text_Style_ExampleApp.swift; sourceTree = "<group>"; };
 		FBFE35D52C729D7C00154D95 /* AccrosticPoemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccrosticPoemView.swift; sourceTree = "<group>"; };
@@ -73,10 +75,11 @@
 				FBD49C8D2C75D5210019ABAE /* MarkdownAndStringInterpolationDemoView.swift */,
 				FBD49C8F2C75E2020019ABAE /* DisplayingCodeWithMarkdown.swift */,
 				FB1030A12C783E450049BBF1 /* OpenUrlActionDemoView.swift */,
-				FB1030A32C7841D30049BBF1 /* PlularizationDemoView.swift */,
+				FB1030A32C7841D30049BBF1 /* PluralizationDemoView.swift */,
 				FB80E5B72C787C8400410F0C /* ListMemberStyleMeasurementsDemoView.swift */,
 				FB80E5B92C78823800410F0C /* TextDatesDemoView.swift */,
 				FB80E5BB2C78857100410F0C /* AttributedStringDemoView.swift */,
+				FBE62D822C7DAFDD00AFC04C /* MainView.swift */,
 				FBFE35D72C729D7D00154D95 /* Assets.xcassets */,
 				FBFE35D92C729D7D00154D95 /* Preview Content */,
 			);
@@ -166,8 +169,9 @@
 				FB80E5B82C787C8400410F0C /* ListMemberStyleMeasurementsDemoView.swift in Sources */,
 				FB80E5BA2C78823800410F0C /* TextDatesDemoView.swift in Sources */,
 				FBFE35D42C729D7C00154D95 /* Text_Style_ExampleApp.swift in Sources */,
-				FB1030A42C7841D30049BBF1 /* PlularizationDemoView.swift in Sources */,
+				FB1030A42C7841D30049BBF1 /* PluralizationDemoView.swift in Sources */,
 				FB1030A22C783E450049BBF1 /* OpenUrlActionDemoView.swift in Sources */,
+				FBE62D832C7DAFDD00AFC04C /* MainView.swift in Sources */,
 				FBD49C8C2C75B2300019ABAE /* MarkdownDemoView.swift in Sources */,
 				FB80E5BC2C78857100410F0C /* AttributedStringDemoView.swift in Sources */,
 				FBD49C902C75E2020019ABAE /* DisplayingCodeWithMarkdown.swift in Sources */,

@@ -11,7 +11,7 @@ import SwiftUI
 struct Text_Style_ExampleApp: App {
     var body: some Scene {
         WindowGroup {
-            OpenUrlActionDemoView()
+            MainView()
         }
     }
 }

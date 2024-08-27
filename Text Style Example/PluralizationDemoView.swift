@@ -1,7 +1,7 @@
 
 import SwiftUI
 
-struct PlularizationDemoView: View {
+struct PluralizationDemoView: View {
     @State private var count = 0
     let nounList = [ "bread", "salt", "domino", "radius", "child", "foot", "tooth", "man", "woman", "goose", "focus", "matrix", "deer", "oasis", "fish", "index", "boom", "brush"]
     
@@ -35,5 +35,5 @@ struct PlularizationDemoView: View {
 }
 
 #Preview {
-    PlularizationDemoView()
+                        PluralizationDemoView()
 }
